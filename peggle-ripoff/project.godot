@@ -11,12 +11,17 @@ config_version=5
 [application]
 
 config/name="Peggle Ripoff"
+run/main_scene="uid://v31wlimuj0cv"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
 
 [autoload]
 
 Globals="*uid://cy7j4rll40t15"
+
+[global_group]
+
+Balls="balls"
 
 [physics]
 

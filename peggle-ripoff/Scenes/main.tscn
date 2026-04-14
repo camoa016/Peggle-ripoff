@@ -1,8 +1,49 @@
 [gd_scene format=3 uid="uid://v31wlimuj0cv"]
 
 [ext_resource type="Script" uid="uid://cy7j4rll40t15" path="res://Scripts/globals.gd" id="1_jjgbg"]
+[ext_resource type="PackedScene" uid="uid://crq2dse1rns67" path="res://Scenes/peg.tscn" id="2_bo1nx"]
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_jjgbg"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bo1nx"]
+size = Vector2(1152, 208)
 
 [node name="Main" type="Node2D" unique_id=1617084391]
 
 [node name="Globals" type="Node" parent="." unique_id=2126466881]
 script = ExtResource("1_jjgbg")
+
+[node name="Borders" type="Node" parent="." unique_id=1267949590]
+
+[node name="RightWall" type="StaticBody2D" parent="Borders" unique_id=1295520282]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Borders/RightWall" unique_id=2015782398]
+position = Vector2(512, 0)
+rotation = -1.5707964
+shape = SubResource("WorldBoundaryShape2D_jjgbg")
+
+[node name="LeftWall" type="StaticBody2D" parent="Borders" unique_id=1289085709]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Borders/LeftWall" unique_id=1764541191]
+position = Vector2(-512, 0)
+rotation = 1.5707964
+shape = SubResource("WorldBoundaryShape2D_jjgbg")
+
+[node name="Floor" type="StaticBody2D" parent="Borders" unique_id=1614797756]
+position = Vector2(0, 320)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Borders/Floor" unique_id=99751747]
+position = Vector2(0, 88)
+shape = SubResource("RectangleShape2D_bo1nx")
+
+[node name="Roof" type="StaticBody2D" parent="Borders" unique_id=2146770686]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Borders/Roof" unique_id=849148418]
+position = Vector2(0, -320)
+rotation = 3.1415927
+shape = SubResource("WorldBoundaryShape2D_jjgbg")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1305710799]
+
+[node name="Peg" parent="." unique_id=2053050987 instance=ExtResource("2_bo1nx")]
+position = Vector2(-40, 48)
