@@ -10,8 +10,9 @@ bounce = 0.8
 
 [sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_25osk"]
 
-[node name="Ball" type="RigidBody2D" unique_id=1712103200]
+[node name="Ball" type="RigidBody2D" unique_id=1712103200 groups=["Balls"]]
 physics_material_override = SubResource("PhysicsMaterial_25osk")
+gravity_scale = 0.75
 contact_monitor = true
 max_contacts_reported = 10
 script = ExtResource("1_d60mj")

@@ -1,0 +1,43 @@
+[gd_scene format=3 uid="uid://3h37xirumngi"]
+
+[ext_resource type="Script" uid="uid://layryshv5g3o" path="res://Scripts/Floor.gd" id="1_1r7dd"]
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_hchn0"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_hchn0"]
+size = Vector2(1152, 178)
+
+[node name="Borders" type="Node" unique_id=1850781841]
+
+[node name="RightWall" type="StaticBody2D" parent="." unique_id=1256431693]
+position = Vector2(576, 320)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RightWall" unique_id=1899227397]
+position = Vector2(512, 0)
+rotation = -1.5707964
+shape = SubResource("WorldBoundaryShape2D_hchn0")
+
+[node name="LeftWall" type="StaticBody2D" parent="." unique_id=1141721397]
+position = Vector2(576, 320)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="LeftWall" unique_id=646949076]
+position = Vector2(-512, 0)
+rotation = 1.5707964
+shape = SubResource("WorldBoundaryShape2D_hchn0")
+
+[node name="Roof" type="StaticBody2D" parent="." unique_id=478116102]
+position = Vector2(576, 320)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Roof" unique_id=720085021]
+position = Vector2(0, -320)
+rotation = 3.1415927
+shape = SubResource("WorldBoundaryShape2D_hchn0")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=380004581]
+script = ExtResource("1_1r7dd")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=1287919144]
+position = Vector2(576, 712)
+shape = SubResource("RectangleShape2D_hchn0")
+
+[connection signal="body_entered" from="Area2D" to="Area2D" method="_on_body_entered"]

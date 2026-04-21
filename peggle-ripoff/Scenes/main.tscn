@@ -2,48 +2,21 @@
 
 [ext_resource type="PackedScene" uid="uid://crq2dse1rns67" path="res://Scenes/peg.tscn" id="2_bo1nx"]
 [ext_resource type="PackedScene" uid="uid://cvnvhfdngxude" path="res://Scenes/launcher.tscn" id="3_8gbba"]
-
-[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_jjgbg"]
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_bo1nx"]
-size = Vector2(1152, 208)
+[ext_resource type="PackedScene" uid="uid://3h37xirumngi" path="res://Scenes/borders.tscn" id="3_jjvhh"]
 
 [node name="Main" type="Node2D" unique_id=1617084391]
-
-[node name="Borders" type="Node" parent="." unique_id=1267949590]
-
-[node name="RightWall" type="StaticBody2D" parent="Borders" unique_id=1295520282]
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Borders/RightWall" unique_id=2015782398]
-position = Vector2(512, 0)
-rotation = -1.5707964
-shape = SubResource("WorldBoundaryShape2D_jjgbg")
-
-[node name="LeftWall" type="StaticBody2D" parent="Borders" unique_id=1289085709]
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Borders/LeftWall" unique_id=1764541191]
-position = Vector2(-512, 0)
-rotation = 1.5707964
-shape = SubResource("WorldBoundaryShape2D_jjgbg")
-
-[node name="Floor" type="StaticBody2D" parent="Borders" unique_id=1614797756]
-position = Vector2(0, 320)
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Borders/Floor" unique_id=99751747]
-position = Vector2(0, 88)
-shape = SubResource("RectangleShape2D_bo1nx")
-
-[node name="Roof" type="StaticBody2D" parent="Borders" unique_id=2146770686]
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Borders/Roof" unique_id=849148418]
-position = Vector2(0, -320)
-rotation = 3.1415927
-shape = SubResource("WorldBoundaryShape2D_jjgbg")
+position = Vector2(576, 328)
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1305710799]
+limit_left = 0
+limit_top = 0
+limit_right = 1152
+limit_bottom = 648
 
 [node name="Peg" parent="." unique_id=2053050987 instance=ExtResource("2_bo1nx")]
-position = Vector2(-40, 48)
+position = Vector2(0, 160)
 
 [node name="Launcher" parent="." unique_id=1356385187 instance=ExtResource("3_8gbba")]
-position = Vector2(0, -320)
+position = Vector2(0, -328)
+
+[node name="Borders" parent="." unique_id=1850781841 instance=ExtResource("3_jjvhh")]

@@ -22,6 +22,7 @@ Globals="*uid://cy7j4rll40t15"
 [global_group]
 
 Pegs=""
+Balls=""
 
 [physics]
 
