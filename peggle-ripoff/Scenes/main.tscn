@@ -5,7 +5,6 @@
 [ext_resource type="PackedScene" uid="uid://3h37xirumngi" path="res://Scenes/borders.tscn" id="3_jjvhh"]
 
 [node name="Main" type="Node2D" unique_id=1617084391]
-position = Vector2(576, 328)
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1305710799]
 limit_left = 0
@@ -14,9 +13,9 @@ limit_right = 1152
 limit_bottom = 648
 
 [node name="Peg" parent="." unique_id=2053050987 instance=ExtResource("2_bo1nx")]
-position = Vector2(0, 160)
+position = Vector2(576, 320)
 
 [node name="Launcher" parent="." unique_id=1356385187 instance=ExtResource("3_8gbba")]
-position = Vector2(0, -328)
+position = Vector2(576, 0)
 
 [node name="Borders" parent="." unique_id=1850781841 instance=ExtResource("3_jjvhh")]
