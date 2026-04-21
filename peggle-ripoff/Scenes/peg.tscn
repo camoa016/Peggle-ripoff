@@ -7,13 +7,11 @@
 [sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_e5a35"]
 size = Vector2(16, 16)
 
-[node name="Peg" type="Node2D" unique_id=2053050987]
-
-[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=1186612201]
+[node name="Peg" type="StaticBody2D" unique_id=1186612201 groups=["Pegs"]]
 script = ExtResource("1_e5a35")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=2080804074]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2080804074]
 shape = SubResource("CircleShape2D_bbran")
 
-[node name="Sprite2D" type="Sprite2D" parent="StaticBody2D" unique_id=743819805]
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=743819805]
 texture = SubResource("PlaceholderTexture2D_e5a35")

@@ -10,17 +10,15 @@ bounce = 0.8
 
 [sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_25osk"]
 
-[node name="Ball" type="RigidBody2D" unique_id=1712103200]
-physics_material_override = SubResource("PhysicsMaterial_25osk")
-contact_monitor = true
-max_contacts_reported = 10
+[node name="Ball" type="Node2D" unique_id=132843412 groups=["Balls"]]
 script = ExtResource("1_d60mj")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1529995010]
+[node name="RigidBody2D" type="RigidBody2D" parent="." unique_id=1712103200 groups=["Balls"]]
+physics_material_override = SubResource("PhysicsMaterial_25osk")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RigidBody2D" unique_id=1529995010 groups=["Balls"]]
 shape = SubResource("CircleShape2D_25osk")
 
-[node name="Sprite2D" type="Sprite2D" parent="." unique_id=277815119]
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D" unique_id=277815119]
 scale = Vector2(22, 22)
 texture = SubResource("PlaceholderTexture2D_25osk")
-
-[connection signal="body_entered" from="." to="." method="_on_body_entered"]

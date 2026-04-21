@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://v31wlimuj0cv"]
 
-[ext_resource type="Script" uid="uid://cy7j4rll40t15" path="res://Scripts/globals.gd" id="1_jjgbg"]
 [ext_resource type="PackedScene" uid="uid://crq2dse1rns67" path="res://Scenes/peg.tscn" id="2_bo1nx"]
+[ext_resource type="PackedScene" uid="uid://cvnvhfdngxude" path="res://Scenes/launcher.tscn" id="3_8gbba"]
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_jjgbg"]
 
@@ -9,9 +9,6 @@
 size = Vector2(1152, 208)
 
 [node name="Main" type="Node2D" unique_id=1617084391]
-
-[node name="Globals" type="Node" parent="." unique_id=2126466881]
-script = ExtResource("1_jjgbg")
 
 [node name="Borders" type="Node" parent="." unique_id=1267949590]
 
@@ -47,3 +44,6 @@ shape = SubResource("WorldBoundaryShape2D_jjgbg")
 
 [node name="Peg" parent="." unique_id=2053050987 instance=ExtResource("2_bo1nx")]
 position = Vector2(-40, 48)
+
+[node name="Launcher" parent="." unique_id=1356385187 instance=ExtResource("3_8gbba")]
+position = Vector2(0, -320)
