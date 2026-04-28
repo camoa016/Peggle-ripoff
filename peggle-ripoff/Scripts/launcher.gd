@@ -8,6 +8,7 @@ func _ready() -> void:
 func shoot_ball():
 	var ball = Globals.ball_scene.instantiate()
 	add_child(ball)
+	ball.add_to_group("Balls")
 	ball.reparent(get_tree().current_scene)
 	
 # Called every frame. 'delta' is the elapsed time since the previous frame.
