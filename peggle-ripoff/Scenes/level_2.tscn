@@ -167,8 +167,13 @@ position = Vector2(251, -4)
 [node name="Launcher" parent="Gun" unique_id=1356385187 instance=ExtResource("4_055b2")]
 position = Vector2(0, -324)
 
-[node name="PeggleCastle" type="Sprite2D" parent="." unique_id=1531544276]
-position = Vector2(1.7642975e-05, 2.4999933)
+[node name="background" type="Node" parent="." unique_id=1976765174]
+
+[node name="PeggleCastle" type="Sprite2D" parent="background" unique_id=1531544276]
+visibility_layer = 4
+z_index = -10
+z_as_relative = false
+position = Vector2(-1, 12)
 scale = Vector2(0.7643228, 0.6591796)
 texture = ExtResource("5_v36qu")
 
