@@ -9,5 +9,5 @@ func _ready() -> void:
 func _on_body_entered(body):
 	if body.is_in_group("Pegs"):
 		body.on_hit()
-		Globals.score += 10
+		Globals.increase_score.emit(10)
 		print(Globals.score)

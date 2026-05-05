@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://cy7j4rll40t15" path="res://Scripts/globals.gd" id="1_jjgbg"]
 [ext_resource type="PackedScene" uid="uid://crq2dse1rns67" path="res://Scenes/peg.tscn" id="2_bo1nx"]
-[ext_resource type="Script" uid="uid://bd4i134w2ojsn" path="res://Scripts/menu_button.gd" id="3_8gbba"]
+[ext_resource type="Script" path="res://Scripts/menu_button.gd" id="3_8gbba"]
 
 [node name="Main" type="Node2D" unique_id=1617084391]
 
