@@ -1,14 +1,13 @@
 [gd_scene format=3 uid="uid://j5t3fi8cul4r"]
 
 [ext_resource type="Script" uid="uid://qwvr5f4fhk7x" path="res://Scripts/ball.gd" id="1_d60mj"]
+[ext_resource type="Texture2D" uid="uid://csxsepmvc8tq8" path="res://Media/image-removebg-preview (3).png" id="2_ij5cq"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_25osk"]
 friction = 0.0
 bounce = 0.8
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_25osk"]
-
-[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_25osk"]
 
 [node name="Ball" type="RigidBody2D" unique_id=1712103200 groups=["Balls"]]
 physics_material_override = SubResource("PhysicsMaterial_25osk")
@@ -21,7 +20,8 @@ script = ExtResource("1_d60mj")
 shape = SubResource("CircleShape2D_25osk")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=277815119]
-scale = Vector2(22, 22)
-texture = SubResource("PlaceholderTexture2D_25osk")
+position = Vector2(0, -0.625)
+scale = Vector2(0.215, 0.215)
+texture = ExtResource("2_ij5cq")
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
