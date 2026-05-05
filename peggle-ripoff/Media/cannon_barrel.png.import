@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c0f58bo1y0dst"
-path="res://.godot/imported/Peggle castle.png-3d864ef3d7c5f6deea1adf9b68d09ef3.ctex"
+uid="uid://btfpclbty0sn0"
+path="res://.godot/imported/cannon_barrel.png-78f58fea021b057b5e071afa204c45df.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Media/Peggle castle.png"
-dest_files=["res://.godot/imported/Peggle castle.png-3d864ef3d7c5f6deea1adf9b68d09ef3.ctex"]
+source_file="res://Media/cannon_barrel.png"
+dest_files=["res://.godot/imported/cannon_barrel.png-78f58fea021b057b5e071afa204c45df.ctex"]
 
 [params]
 
