@@ -2,7 +2,8 @@
 
 [ext_resource type="Script" uid="uid://cbko8hby4mkil" path="res://Scripts/peg.gd" id="1_e5a35"]
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_bbran"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_e5a35"]
+size = Vector2(16, 16)
 
 [sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_e5a35"]
 size = Vector2(16, 16)
@@ -11,7 +12,7 @@ size = Vector2(16, 16)
 script = ExtResource("1_e5a35")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2080804074]
-shape = SubResource("CircleShape2D_bbran")
+shape = SubResource("RectangleShape2D_e5a35")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=743819805]
 texture = SubResource("PlaceholderTexture2D_e5a35")

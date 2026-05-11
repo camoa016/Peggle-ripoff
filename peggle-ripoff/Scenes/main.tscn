@@ -1,29 +1,51 @@
 [gd_scene format=3 uid="uid://v31wlimuj0cv"]
 
-[ext_resource type="Script" uid="uid://cy7j4rll40t15" path="res://Scripts/globals.gd" id="1_jjgbg"]
-[ext_resource type="PackedScene" uid="uid://crq2dse1rns67" path="res://Scenes/peg.tscn" id="2_bo1nx"]
-[ext_resource type="Script" uid="uid://bd4i134w2ojsn" path="res://Scripts/menu_button.gd" id="3_8gbba"]
+[ext_resource type="Script" uid="uid://layryshv5g3o" path="res://Scripts/Floor.gd" id="5_21xkr"]
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_6bp64"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_344ge"]
+size = Vector2(1152, 208)
 
 [node name="Main" type="Node2D" unique_id=1617084391]
 
-[node name="Globals" type="Node" parent="." unique_id=2126466881]
-script = ExtResource("1_jjgbg")
-
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1305710799]
 
-[node name="Peg" parent="." unique_id=2053050987 instance=ExtResource("2_bo1nx")]
-position = Vector2(-40, 48)
+[node name="LevelContainer" type="Node" parent="." unique_id=545357102]
 
-[node name="OptionButton" type="OptionButton" parent="." unique_id=1350744618]
-offset_left = -474.0
-offset_top = -88.0
-offset_right = -280.0
-offset_bottom = -23.0
-item_count = 2
-popup/item_0/text = "level1"
-popup/item_0/id = 0
-popup/item_1/text = "level2"
-popup/item_1/id = 1
-script = ExtResource("3_8gbba")
+[node name="UI" type="Node" parent="." unique_id=1410014803]
 
-[connection signal="item_selected" from="OptionButton" to="OptionButton" method="_on_item_selected"]
+[node name="Borders" type="Node" parent="UI" unique_id=1765848124]
+
+[node name="RightWall" type="StaticBody2D" parent="UI/Borders" unique_id=442949770]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="UI/Borders/RightWall" unique_id=2113641491]
+position = Vector2(512, 0)
+rotation = -1.5707964
+shape = SubResource("WorldBoundaryShape2D_6bp64")
+
+[node name="LeftWall" type="StaticBody2D" parent="UI/Borders" unique_id=49324717]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="UI/Borders/LeftWall" unique_id=564934815]
+position = Vector2(-512, 0)
+rotation = 1.5707964
+shape = SubResource("WorldBoundaryShape2D_6bp64")
+
+[node name="Floor" type="Area2D" parent="UI/Borders" unique_id=446764873]
+position = Vector2(0, 320)
+script = ExtResource("5_21xkr")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="UI/Borders/Floor" unique_id=2015954478]
+position = Vector2(0, 88)
+shape = SubResource("RectangleShape2D_344ge")
+
+[node name="Roof" type="StaticBody2D" parent="UI/Borders" unique_id=262529740]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="UI/Borders/Roof" unique_id=349903084]
+position = Vector2(0, -320)
+rotation = 3.1415927
+shape = SubResource("WorldBoundaryShape2D_6bp64")
+
+[node name="LevelManager" type="Node" parent="." unique_id=1921844467]
+
+[connection signal="body_entered" from="UI/Borders/Floor" to="UI/Borders/Floor" method="_on_body_entered"]

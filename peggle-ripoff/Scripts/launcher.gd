@@ -19,4 +19,5 @@ func _process(delta: float) -> void:
 func _input(event):
 	if event is InputEventMouseButton and event.pressed:
 		if event.button_index == MOUSE_BUTTON_LEFT :
-			shoot_ball()
+			if (get_tree().get_nodes_in_group("Balls").size() < 1):
+				shoot_ball()

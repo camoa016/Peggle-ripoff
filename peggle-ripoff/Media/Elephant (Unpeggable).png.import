@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://de5apuaxy8dcc"
-path="res://.godot/imported/Elephant (Unpeggable).png-8d666eb8553434b5eafa85862031728a.ctex"
+path="res://.godot/imported/Elephant (Unpeggable).png-05ef5ef3b623c7af2969acfcf13af63b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Media/Elephant (Unpeggable).png"
-dest_files=["res://.godot/imported/Elephant (Unpeggable).png-8d666eb8553434b5eafa85862031728a.ctex"]
+source_file="res://media/Elephant (Unpeggable).png"
+dest_files=["res://.godot/imported/Elephant (Unpeggable).png-05ef5ef3b623c7af2969acfcf13af63b.ctex"]
 
 [params]
 
