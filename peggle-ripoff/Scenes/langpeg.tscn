@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://crq2dse1rns67"]
+
+[ext_resource type="Script" uid="uid://cbko8hby4mkil" path="res://Scripts/peg.gd" id="1_3liul"]
+[ext_resource type="Texture2D" uid="uid://c5fw1e2vqk7qm" path="res://media/image-removebg-preview (1).png" id="2_g1hrb"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_e5a35"]
+size = Vector2(39, 17)
+
+[node name="squerepeg" type="StaticBody2D" unique_id=1186612201 groups=["Pegs"]]
+script = ExtResource("1_3liul")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2080804074]
+position = Vector2(0.5, -0.5)
+shape = SubResource("RectangleShape2D_e5a35")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=743819805]
+scale = Vector2(0.252, 0.345)
+texture = ExtResource("2_g1hrb")

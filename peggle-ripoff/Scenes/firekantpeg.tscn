@@ -1,6 +1,6 @@
-[gd_scene format=3 uid="uid://crq2dse1rns67"]
+[gd_scene format=3 uid="uid://c3tw3ulh2xubg"]
 
-[ext_resource type="Script" uid="uid://cbko8hby4mkil" path="res://Scripts/peg.gd" id="1_e5a35"]
+[ext_resource type="Script" uid="uid://cbko8hby4mkil" path="res://Scripts/peg.gd" id="1_2pce6"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_e5a35"]
 size = Vector2(16, 16)
@@ -9,7 +9,7 @@ size = Vector2(16, 16)
 size = Vector2(16, 16)
 
 [node name="Peg" type="StaticBody2D" unique_id=1186612201 groups=["Pegs"]]
-script = ExtResource("1_e5a35")
+script = ExtResource("1_2pce6")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2080804074]
 shape = SubResource("RectangleShape2D_e5a35")

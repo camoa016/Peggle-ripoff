@@ -20,6 +20,10 @@ config/icon="res://icon.svg"
 Globals="*uid://cy7j4rll40t15"
 LevelManager="*uid://cqhomaya40hk0"
 
+[display]
+
+window/stretch/mode="canvas_items"
+
 [global_group]
 
 Balls="balls"
