@@ -1,130 +1,135 @@
-[gd_scene format=3 uid="uid://bw484wfgafery"]
+[gd_scene format=3 uid="uid://dpmkylv3rhsnl"]
 
-[ext_resource type="Script" path="res://Scripts/level_1.gd" id="1_xfk5q"]
-[ext_resource type="Script" uid="uid://cy7j4rll40t15" path="res://Scripts/globals.gd" id="2_7p6j4"]
-[ext_resource type="PackedScene" uid="uid://crq2dse1rns67" path="res://Scenes/peg.tscn" id="3_6444e"]
-[ext_resource type="PackedScene" uid="uid://cvnvhfdngxude" path="res://Scenes/launcher.tscn" id="4_7p6j4"]
+[ext_resource type="Script" uid="uid://drwl2ru8xxxwi" path="res://Scripts/level_1.gd" id="1_2mbx3"]
+[ext_resource type="PackedScene" uid="uid://crq2dse1rns67" path="res://Scenes/langpeg.tscn" id="2_yffda"]
+[ext_resource type="PackedScene" uid="uid://neqtv5j3fyba" path="res://Scenes/buetlangpeg.tscn" id="3_cru1l"]
+[ext_resource type="PackedScene" uid="uid://cvnvhfdngxude" path="res://Scenes/launcher.tscn" id="3_yffda"]
 
 [node name="Node2D" type="Node2D" unique_id=156690217]
-script = ExtResource("1_xfk5q")
-peg_scene = ExtResource("3_6444e")
-
-[node name="Globals" type="Node" parent="." unique_id=1534836170]
-script = ExtResource("2_7p6j4")
-
-[node name="Camera2D" type="Camera2D" parent="." unique_id=2112354480]
+script = ExtResource("1_2mbx3")
+peg_scene = ExtResource("2_yffda")
 
 [node name="Pegs" type="Node" parent="." unique_id=1921494433]
 
-[node name="Peg" parent="Pegs" unique_id=1186612201 instance=ExtResource("3_6444e")]
+[node name="Peg" parent="Pegs" unique_id=1186612201 instance=ExtResource("2_yffda")]
 position = Vector2(-428, -1)
 
-[node name="Peg2" parent="Pegs" unique_id=345220298 instance=ExtResource("3_6444e")]
+[node name="Peg2" parent="Pegs" unique_id=345220298 instance=ExtResource("2_yffda")]
 position = Vector2(-413, -1)
 
-[node name="Peg3" parent="Pegs" unique_id=1931123846 instance=ExtResource("3_6444e")]
+[node name="Peg3" parent="Pegs" unique_id=1931123846 instance=ExtResource("2_yffda")]
 position = Vector2(-397, -1)
 
-[node name="Peg4" parent="Pegs" unique_id=1408316486 instance=ExtResource("3_6444e")]
+[node name="Peg4" parent="Pegs" unique_id=1408316486 instance=ExtResource("2_yffda")]
 position = Vector2(-382, -1)
 
-[node name="Peg5" parent="Pegs" unique_id=488194057 instance=ExtResource("3_6444e")]
+[node name="Peg5" parent="Pegs" unique_id=488194057 instance=ExtResource("2_yffda")]
 position = Vector2(-368, -1)
 
-[node name="Peg6" parent="Pegs" unique_id=1017864668 instance=ExtResource("3_6444e")]
+[node name="Peg6" parent="Pegs" unique_id=1017864668 instance=ExtResource("2_yffda")]
 position = Vector2(-351, -1)
 
-[node name="Peg7" parent="Pegs" unique_id=938950841 instance=ExtResource("3_6444e")]
+[node name="Peg7" parent="Pegs" unique_id=938950841 instance=ExtResource("2_yffda")]
 position = Vector2(-335, -1)
 
-[node name="Peg8" parent="Pegs" unique_id=1230929980 instance=ExtResource("3_6444e")]
+[node name="Peg8" parent="Pegs" unique_id=1230929980 instance=ExtResource("2_yffda")]
 position = Vector2(-320, -1)
 
-[node name="Peg9" parent="Pegs" unique_id=824603780 instance=ExtResource("3_6444e")]
+[node name="Peg9" parent="Pegs" unique_id=824603780 instance=ExtResource("2_yffda")]
 position = Vector2(-304, -1)
 
-[node name="Peg10" parent="Pegs" unique_id=515286937 instance=ExtResource("3_6444e")]
+[node name="Peg10" parent="Pegs" unique_id=515286937 instance=ExtResource("2_yffda")]
 position = Vector2(-289, -1)
 
-[node name="Peg11" parent="Pegs" unique_id=2082404985 instance=ExtResource("3_6444e")]
+[node name="Peg11" parent="Pegs" unique_id=2082404985 instance=ExtResource("2_yffda")]
 position = Vector2(-275, -1)
 
-[node name="Peg12" parent="Pegs" unique_id=275221490 instance=ExtResource("3_6444e")]
+[node name="Peg12" parent="Pegs" unique_id=275221490 instance=ExtResource("2_yffda")]
 position = Vector2(-258, -1)
 
-[node name="Peg13" parent="Pegs" unique_id=1205909955 instance=ExtResource("3_6444e")]
+[node name="Peg13" parent="Pegs" unique_id=1205909955 instance=ExtResource("2_yffda")]
 position = Vector2(-242, -1)
 
-[node name="Peg14" parent="Pegs" unique_id=2105118619 instance=ExtResource("3_6444e")]
+[node name="Peg14" parent="Pegs" unique_id=2105118619 instance=ExtResource("2_yffda")]
 position = Vector2(-227, -1)
 
-[node name="Peg15" parent="Pegs" unique_id=1775236366 instance=ExtResource("3_6444e")]
+[node name="Peg15" parent="Pegs" unique_id=1775236366 instance=ExtResource("2_yffda")]
 position = Vector2(-211, -1)
 
-[node name="Peg16" parent="Pegs" unique_id=1176377360 instance=ExtResource("3_6444e")]
+[node name="Peg16" parent="Pegs" unique_id=1176377360 instance=ExtResource("2_yffda")]
 position = Vector2(-196, -1)
 
-[node name="Peg17" parent="Pegs" unique_id=1349631296 instance=ExtResource("3_6444e")]
+[node name="Peg17" parent="Pegs" unique_id=1349631296 instance=ExtResource("2_yffda")]
 position = Vector2(-182, -1)
 
-[node name="Peg18" parent="Pegs" unique_id=734103789 instance=ExtResource("3_6444e")]
+[node name="Peg18" parent="Pegs" unique_id=734103789 instance=ExtResource("2_yffda")]
 position = Vector2(-165, -1)
 
-[node name="Peg19" parent="Pegs" unique_id=1083859331 instance=ExtResource("3_6444e")]
+[node name="Peg19" parent="Pegs" unique_id=1083859331 instance=ExtResource("2_yffda")]
 position = Vector2(-149, -1)
 
-[node name="Peg20" parent="Pegs" unique_id=1047016601 instance=ExtResource("3_6444e")]
+[node name="Peg20" parent="Pegs" unique_id=1047016601 instance=ExtResource("2_yffda")]
 position = Vector2(-134, -1)
 
-[node name="Peg21" parent="Pegs" unique_id=1524025685 instance=ExtResource("3_6444e")]
+[node name="Peg21" parent="Pegs" unique_id=1524025685 instance=ExtResource("2_yffda")]
 position = Vector2(-118, -1)
 
-[node name="Peg22" parent="Pegs" unique_id=610964818 instance=ExtResource("3_6444e")]
+[node name="Peg22" parent="Pegs" unique_id=610964818 instance=ExtResource("2_yffda")]
 position = Vector2(-103, -1)
 
-[node name="Peg23" parent="Pegs" unique_id=1257313514 instance=ExtResource("3_6444e")]
+[node name="Peg23" parent="Pegs" unique_id=1257313514 instance=ExtResource("2_yffda")]
 position = Vector2(-89, -1)
 
-[node name="Peg24" parent="Pegs" unique_id=219521701 instance=ExtResource("3_6444e")]
-position = Vector2(-72, -1)
+[node name="Peg24" parent="Pegs" unique_id=219521701 instance=ExtResource("2_yffda")]
+position = Vector2(-170, -61)
 
-[node name="Peg25" parent="Pegs" unique_id=243944953 instance=ExtResource("3_6444e")]
-position = Vector2(-57, -1)
+[node name="Peg25" parent="Pegs" unique_id=243944953 instance=ExtResource("2_yffda")]
+position = Vector2(-210, 37)
 
-[node name="Peg26" parent="Pegs" unique_id=426178118 instance=ExtResource("3_6444e")]
-position = Vector2(-42, -1)
+[node name="Peg26" parent="Pegs" unique_id=426178118 instance=ExtResource("2_yffda")]
+position = Vector2(-69, -40)
 
-[node name="Peg27" parent="Pegs" unique_id=841478006 instance=ExtResource("3_6444e")]
-position = Vector2(-26, -1)
+[node name="Peg27" parent="Pegs" unique_id=841478006 instance=ExtResource("2_yffda")]
+position = Vector2(-125, 65)
 
-[node name="Peg28" parent="Pegs" unique_id=1637568620 instance=ExtResource("3_6444e")]
-position = Vector2(-11, -1)
+[node name="Peg28" parent="Pegs" unique_id=1637568620 instance=ExtResource("2_yffda")]
+position = Vector2(-12, -45)
 
-[node name="Peg29" parent="Pegs" unique_id=1081437307 instance=ExtResource("3_6444e")]
-position = Vector2(3, -1)
+[node name="Peg29" parent="Pegs" unique_id=1081437307 instance=ExtResource("2_yffda")]
+position = Vector2(-51, 54)
 
-[node name="Peg30" parent="Pegs" unique_id=2075727838 instance=ExtResource("3_6444e")]
-position = Vector2(20, -1)
+[node name="Peg30" parent="Pegs" unique_id=2075727838 instance=ExtResource("2_yffda")]
+position = Vector2(103, 4)
 
-[node name="Peg31" parent="Pegs" unique_id=474709547 instance=ExtResource("3_6444e")]
-position = Vector2(36, -1)
+[node name="Peg31" parent="Pegs" unique_id=474709547 instance=ExtResource("2_yffda")]
+position = Vector2(23, 64)
 
-[node name="Peg32" parent="Pegs" unique_id=482059118 instance=ExtResource("3_6444e")]
-position = Vector2(51, -1)
+[node name="Peg32" parent="Pegs" unique_id=482059118 instance=ExtResource("2_yffda")]
+position = Vector2(57, -45)
 
-[node name="Peg33" parent="Pegs" unique_id=1207757031 instance=ExtResource("3_6444e")]
-position = Vector2(67, -1)
+[node name="Peg33" parent="Pegs" unique_id=1207757031 instance=ExtResource("2_yffda")]
+position = Vector2(103, 70)
 
-[node name="Peg34" parent="Pegs" unique_id=1600025014 instance=ExtResource("3_6444e")]
-position = Vector2(82, -1)
+[node name="Peg34" parent="Pegs" unique_id=1600025014 instance=ExtResource("2_yffda")]
+position = Vector2(195, 1)
 
-[node name="Peg35" parent="Pegs" unique_id=1877131547 instance=ExtResource("3_6444e")]
-position = Vector2(96, -1)
+[node name="Peg35" parent="Pegs" unique_id=1877131547 instance=ExtResource("2_yffda")]
+position = Vector2(165, 57)
 
-[node name="Peg36" parent="Pegs" unique_id=1252289727 instance=ExtResource("3_6444e")]
-position = Vector2(113, -1)
+[node name="Peg36" parent="Pegs" unique_id=1252289727 instance=ExtResource("2_yffda")]
+position = Vector2(141, -92)
 
-[node name="Gun" type="Node" parent="." unique_id=174218165]
+[node name="squerepeg" parent="Pegs" unique_id=261763143 instance=ExtResource("3_cru1l")]
+position = Vector2(58, -118)
 
-[node name="Launcher" parent="Gun" unique_id=1356385187 instance=ExtResource("4_7p6j4")]
-position = Vector2(0, -324)
+[node name="squerepeg2" parent="Pegs" unique_id=642265039 instance=ExtResource("3_cru1l")]
+position = Vector2(-48, -137)
+
+[node name="squerepeg3" parent="Pegs" unique_id=563634524 instance=ExtResource("3_cru1l")]
+position = Vector2(-226, -109)
+
+[node name="Launcher" parent="." unique_id=1356385187 instance=ExtResource("3_yffda")]
+position = Vector2(0, -320)
+
+[node name="Peg" parent="." unique_id=654456005 instance=ExtResource("2_yffda")]
+position = Vector2(-101, -106)
