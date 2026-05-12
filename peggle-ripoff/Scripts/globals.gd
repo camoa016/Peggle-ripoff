@@ -4,3 +4,5 @@ extends Node
 @onready var peglangpeg_scene = preload("res://Scenes/langpeg.tscn")
 @onready var firekantpeg_scene = preload("res://Scenes/firekantpeg.tscn")
 @onready var score = 0
+
+signal increase_score(value)
