@@ -1,8 +1,8 @@
 [gd_scene format=3 uid="uid://cvnvhfdngxude"]
 
 [ext_resource type="Script" uid="uid://b63qljd2qcd4" path="res://Scripts/launcher.gd" id="1_w37im"]
-[ext_resource type="Texture2D" uid="uid://dc3rftxfw5sh0" path="res://media/cannon_base_swirl.png" id="2_ndnwk"]
-[ext_resource type="Texture2D" uid="uid://btfpclbty0sn0" path="res://media/cannon_barrel.png" id="3_8k52w"]
+[ext_resource type="Texture2D" uid="uid://dc3rftxfw5sh0" path="res://Media/cannon_base_swirl.png" id="2_ndnwk"]
+[ext_resource type="Texture2D" uid="uid://btfpclbty0sn0" path="res://Media/cannon_barrel.png" id="3_8k52w"]
 
 [node name="Launcher" type="Node2D" unique_id=1356385187]
 script = ExtResource("1_w37im")
