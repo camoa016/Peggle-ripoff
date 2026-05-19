@@ -11,117 +11,249 @@ peg_scene = ExtResource("2_peptx")
 
 [node name="Pegs" type="Node" parent="." unique_id=1921494433]
 
-[node name="Peg" parent="Pegs" unique_id=1186612201 instance=ExtResource("2_peptx")]
-position = Vector2(-428, -1)
-
-[node name="Peg2" parent="Pegs" unique_id=345220298 instance=ExtResource("2_peptx")]
-position = Vector2(-413, -1)
-
-[node name="Peg3" parent="Pegs" unique_id=1931123846 instance=ExtResource("2_peptx")]
-position = Vector2(-397, -1)
-
-[node name="Peg4" parent="Pegs" unique_id=1408316486 instance=ExtResource("2_peptx")]
-position = Vector2(-382, -1)
-
-[node name="Peg5" parent="Pegs" unique_id=488194057 instance=ExtResource("2_peptx")]
-position = Vector2(-368, -1)
-
-[node name="Peg6" parent="Pegs" unique_id=1017864668 instance=ExtResource("2_peptx")]
-position = Vector2(-351, -1)
-
-[node name="Peg7" parent="Pegs" unique_id=938950841 instance=ExtResource("2_peptx")]
-position = Vector2(-335, -1)
-
-[node name="Peg8" parent="Pegs" unique_id=1230929980 instance=ExtResource("2_peptx")]
-position = Vector2(-320, -1)
-
-[node name="Peg9" parent="Pegs" unique_id=824603780 instance=ExtResource("2_peptx")]
-position = Vector2(-304, -1)
-
-[node name="Peg10" parent="Pegs" unique_id=515286937 instance=ExtResource("2_peptx")]
-position = Vector2(-289, -1)
-
-[node name="Peg11" parent="Pegs" unique_id=2082404985 instance=ExtResource("2_peptx")]
-position = Vector2(-275, -1)
-
-[node name="Peg12" parent="Pegs" unique_id=275221490 instance=ExtResource("2_peptx")]
-position = Vector2(-258, -1)
-
-[node name="Peg13" parent="Pegs" unique_id=1205909955 instance=ExtResource("2_peptx")]
-position = Vector2(-242, -1)
-
-[node name="Peg14" parent="Pegs" unique_id=2105118619 instance=ExtResource("2_peptx")]
-position = Vector2(-227, -1)
-
-[node name="Peg15" parent="Pegs" unique_id=1775236366 instance=ExtResource("2_peptx")]
-position = Vector2(-211, -1)
-
-[node name="Peg16" parent="Pegs" unique_id=1176377360 instance=ExtResource("2_peptx")]
-position = Vector2(-196, -1)
-
-[node name="Peg17" parent="Pegs" unique_id=1349631296 instance=ExtResource("2_peptx")]
-position = Vector2(89, 298)
-
-[node name="Peg18" parent="Pegs" unique_id=734103789 instance=ExtResource("2_peptx")]
-position = Vector2(-165, -1)
-
-[node name="Peg19" parent="Pegs" unique_id=1083859331 instance=ExtResource("2_peptx")]
-position = Vector2(-149, -1)
-
-[node name="Peg20" parent="Pegs" unique_id=1047016601 instance=ExtResource("2_peptx")]
-position = Vector2(-134, -1)
-
-[node name="Peg21" parent="Pegs" unique_id=1524025685 instance=ExtResource("2_peptx")]
-position = Vector2(-118, -1)
-
-[node name="Peg22" parent="Pegs" unique_id=610964818 instance=ExtResource("2_peptx")]
-position = Vector2(-160, 181)
-
-[node name="Peg23" parent="Pegs" unique_id=1257313514 instance=ExtResource("2_peptx")]
-position = Vector2(-89, -1)
-
-[node name="Peg24" parent="Pegs" unique_id=219521701 instance=ExtResource("2_peptx")]
-position = Vector2(-72, -1)
-
-[node name="Peg25" parent="Pegs" unique_id=243944953 instance=ExtResource("2_peptx")]
-position = Vector2(-57, -1)
-
-[node name="Peg26" parent="Pegs" unique_id=426178118 instance=ExtResource("2_peptx")]
-position = Vector2(-42, -1)
-
-[node name="Peg27" parent="Pegs" unique_id=841478006 instance=ExtResource("2_peptx")]
-position = Vector2(-26, -1)
-
-[node name="Peg28" parent="Pegs" unique_id=1637568620 instance=ExtResource("2_peptx")]
-position = Vector2(-11, -1)
-
-[node name="Peg29" parent="Pegs" unique_id=1081437307 instance=ExtResource("2_peptx")]
-position = Vector2(173, -88)
-
-[node name="Peg30" parent="Pegs" unique_id=2075727838 instance=ExtResource("2_peptx")]
-position = Vector2(20, -1)
-
-[node name="Peg31" parent="Pegs" unique_id=474709547 instance=ExtResource("2_peptx")]
-position = Vector2(36, -1)
-
-[node name="Peg32" parent="Pegs" unique_id=482059118 instance=ExtResource("2_peptx")]
-position = Vector2(51, -1)
-
-[node name="Peg33" parent="Pegs" unique_id=1207757031 instance=ExtResource("2_peptx")]
-position = Vector2(-227, -187)
-
-[node name="Peg34" parent="Pegs" unique_id=1600025014 instance=ExtResource("2_peptx")]
-position = Vector2(82, -1)
-
 [node name="Peg35" parent="Pegs" unique_id=1877131547 instance=ExtResource("2_peptx")]
-position = Vector2(96, -1)
+position = Vector2(-180, -17)
 
-[node name="Peg36" parent="Pegs" unique_id=1252289727 instance=ExtResource("2_peptx")]
-position = Vector2(251, -4)
+[node name="Peg38" parent="Pegs" unique_id=1186612201 instance=ExtResource("2_peptx")]
+position = Vector2(-139, -17)
+
+[node name="Peg39" parent="Pegs" unique_id=1019811347 instance=ExtResource("2_peptx")]
+position = Vector2(-99, -17)
+
+[node name="Peg40" parent="Pegs" unique_id=146255282 instance=ExtResource("2_peptx")]
+position = Vector2(-59, -17)
+
+[node name="Peg41" parent="Pegs" unique_id=249988556 instance=ExtResource("2_peptx")]
+position = Vector2(-19, -17)
+
+[node name="Peg42" parent="Pegs" unique_id=1340848418 instance=ExtResource("2_peptx")]
+position = Vector2(21, -17)
+
+[node name="Peg43" parent="Pegs" unique_id=967829288 instance=ExtResource("2_peptx")]
+position = Vector2(61, -17)
+
+[node name="Peg44" parent="Pegs" unique_id=1085586956 instance=ExtResource("2_peptx")]
+position = Vector2(101, -17)
+
+[node name="Peg45" parent="Pegs" unique_id=524725732 instance=ExtResource("2_peptx")]
+position = Vector2(141, -17)
+
+[node name="Peg36" parent="Pegs" unique_id=751423414 instance=ExtResource("2_peptx")]
+position = Vector2(-365, -129)
+rotation = -2.5904505
+
+[node name="Peg46" parent="Pegs" unique_id=1027408751 instance=ExtResource("2_peptx")]
+position = Vector2(-324, -129)
+rotation = -2.5904505
+
+[node name="Peg57" parent="Pegs" unique_id=282539603 instance=ExtResource("2_peptx")]
+position = Vector2(-284, -129)
+rotation = -2.5904505
+
+[node name="Peg69" parent="Pegs" unique_id=341742310 instance=ExtResource("2_peptx")]
+position = Vector2(-244, -129)
+rotation = -2.5904505
+
+[node name="Peg81" parent="Pegs" unique_id=1438826508 instance=ExtResource("2_peptx")]
+position = Vector2(-204, -129)
+rotation = -2.5904505
+
+[node name="Peg84" parent="Pegs" unique_id=1419789743 instance=ExtResource("2_peptx")]
+position = Vector2(-164, -129)
+rotation = -2.5904505
+
+[node name="Peg85" parent="Pegs" unique_id=311585266 instance=ExtResource("2_peptx")]
+position = Vector2(-124, -129)
+rotation = -2.5904505
+
+[node name="Peg86" parent="Pegs" unique_id=2005977684 instance=ExtResource("2_peptx")]
+position = Vector2(-84, -129)
+rotation = -2.5904505
+
+[node name="Peg87" parent="Pegs" unique_id=1128257663 instance=ExtResource("2_peptx")]
+position = Vector2(-44, -129)
+rotation = -2.5904505
+
+[node name="Peg88" parent="Pegs" unique_id=864497807 instance=ExtResource("2_peptx")]
+position = Vector2(39, -128)
+rotation = -6.713816
+
+[node name="Peg89" parent="Pegs" unique_id=992410110 instance=ExtResource("2_peptx")]
+position = Vector2(80, -128)
+rotation = -6.713816
+
+[node name="Peg90" parent="Pegs" unique_id=565792515 instance=ExtResource("2_peptx")]
+position = Vector2(120, -128)
+rotation = -6.713816
+
+[node name="Peg91" parent="Pegs" unique_id=281479881 instance=ExtResource("2_peptx")]
+position = Vector2(160, -128)
+rotation = -6.713816
+
+[node name="Peg92" parent="Pegs" unique_id=2030299838 instance=ExtResource("2_peptx")]
+position = Vector2(200, -128)
+rotation = -6.713816
+
+[node name="Peg93" parent="Pegs" unique_id=1808939358 instance=ExtResource("2_peptx")]
+position = Vector2(240, -128)
+rotation = -6.713816
+
+[node name="Peg94" parent="Pegs" unique_id=508172418 instance=ExtResource("2_peptx")]
+position = Vector2(280, -128)
+rotation = -6.713816
+
+[node name="Peg95" parent="Pegs" unique_id=488022842 instance=ExtResource("2_peptx")]
+position = Vector2(320, -128)
+rotation = -6.713816
+
+[node name="Peg96" parent="Pegs" unique_id=855402859 instance=ExtResource("2_peptx")]
+position = Vector2(360, -128)
+rotation = -6.713816
+
+[node name="Peg37" parent="Pegs" unique_id=248166601 instance=ExtResource("2_peptx")]
+position = Vector2(-222, -30)
+rotation = 0.56366676
+
+[node name="Peg47" parent="Pegs" unique_id=770820079 instance=ExtResource("2_peptx")]
+position = Vector2(182, -30)
+rotation = -0.56276804
+
+[node name="Peg48" parent="Pegs" unique_id=63153120 instance=ExtResource("2_peptx")]
+position = Vector2(-435, 74)
+rotation = 0.735731
+
+[node name="Peg49" parent="Pegs" unique_id=1603724162 instance=ExtResource("2_peptx")]
+position = Vector2(-394, 74)
+rotation = 0.735731
+
+[node name="Peg50" parent="Pegs" unique_id=663701986 instance=ExtResource("2_peptx")]
+position = Vector2(-354, 74)
+rotation = 0.735731
+
+[node name="Peg51" parent="Pegs" unique_id=490029353 instance=ExtResource("2_peptx")]
+position = Vector2(-314, 74)
+rotation = 0.735731
+
+[node name="Peg52" parent="Pegs" unique_id=428372922 instance=ExtResource("2_peptx")]
+position = Vector2(-274, 74)
+rotation = 0.735731
+
+[node name="Peg53" parent="Pegs" unique_id=203555048 instance=ExtResource("2_peptx")]
+position = Vector2(-234, 74)
+rotation = 0.735731
+
+[node name="Peg54" parent="Pegs" unique_id=1568595187 instance=ExtResource("2_peptx")]
+position = Vector2(-194, 74)
+rotation = 0.735731
+
+[node name="Peg55" parent="Pegs" unique_id=1906167300 instance=ExtResource("2_peptx")]
+position = Vector2(-154, 74)
+rotation = 0.735731
+
+[node name="Peg56" parent="Pegs" unique_id=1108053644 instance=ExtResource("2_peptx")]
+position = Vector2(-114, 74)
+rotation = 0.735731
+
+[node name="Peg58" parent="Pegs" unique_id=84436617 instance=ExtResource("2_peptx")]
+position = Vector2(-477, 61)
+rotation = 1.2993977
+
+[node name="Peg59" parent="Pegs" unique_id=766469202 instance=ExtResource("2_peptx")]
+position = Vector2(-73, 61)
+rotation = 0.17296296
+
+[node name="Peg60" parent="Pegs" unique_id=1727321438 instance=ExtResource("2_peptx")]
+position = Vector2(114, 77)
+rotation = -0.68567586
+
+[node name="Peg61" parent="Pegs" unique_id=425919183 instance=ExtResource("2_peptx")]
+position = Vector2(155, 77)
+rotation = -0.68567586
+
+[node name="Peg62" parent="Pegs" unique_id=2048604733 instance=ExtResource("2_peptx")]
+position = Vector2(195, 77)
+rotation = -0.68567586
+
+[node name="Peg63" parent="Pegs" unique_id=2043391220 instance=ExtResource("2_peptx")]
+position = Vector2(235, 77)
+rotation = -0.68567586
+
+[node name="Peg64" parent="Pegs" unique_id=1664904185 instance=ExtResource("2_peptx")]
+position = Vector2(275, 77)
+rotation = -0.68567586
+
+[node name="Peg65" parent="Pegs" unique_id=793772212 instance=ExtResource("2_peptx")]
+position = Vector2(315, 77)
+rotation = -0.68567586
+
+[node name="Peg66" parent="Pegs" unique_id=2065876808 instance=ExtResource("2_peptx")]
+position = Vector2(355, 77)
+rotation = -0.68567586
+
+[node name="Peg67" parent="Pegs" unique_id=410556939 instance=ExtResource("2_peptx")]
+position = Vector2(395, 77)
+rotation = -0.68567586
+
+[node name="Peg68" parent="Pegs" unique_id=1341244337 instance=ExtResource("2_peptx")]
+position = Vector2(435, 77)
+rotation = -0.68567586
+
+[node name="Peg70" parent="Pegs" unique_id=288582822 instance=ExtResource("2_peptx")]
+position = Vector2(72, 64)
+rotation = -0.12200916
+
+[node name="Peg71" parent="Pegs" unique_id=1664444302 instance=ExtResource("2_peptx")]
+position = Vector2(476, 64)
+rotation = -1.2484438
+
+[node name="Peg72" parent="Pegs" unique_id=268486101 instance=ExtResource("2_peptx")]
+position = Vector2(-178, 189)
+rotation = 0.039174795
+
+[node name="Peg73" parent="Pegs" unique_id=1743027670 instance=ExtResource("2_peptx")]
+position = Vector2(-137, 189)
+rotation = 0.039174795
+
+[node name="Peg74" parent="Pegs" unique_id=263332844 instance=ExtResource("2_peptx")]
+position = Vector2(-97, 189)
+rotation = 0.039174795
+
+[node name="Peg75" parent="Pegs" unique_id=315560103 instance=ExtResource("2_peptx")]
+position = Vector2(-57, 189)
+rotation = 0.039174795
+
+[node name="Peg76" parent="Pegs" unique_id=1880929671 instance=ExtResource("2_peptx")]
+position = Vector2(-17, 189)
+rotation = 0.039174795
+
+[node name="Peg77" parent="Pegs" unique_id=849506264 instance=ExtResource("2_peptx")]
+position = Vector2(23, 189)
+rotation = 0.039174795
+
+[node name="Peg78" parent="Pegs" unique_id=1726702350 instance=ExtResource("2_peptx")]
+position = Vector2(63, 189)
+rotation = 0.039174795
+
+[node name="Peg79" parent="Pegs" unique_id=469507497 instance=ExtResource("2_peptx")]
+position = Vector2(103, 189)
+rotation = 0.039174795
+
+[node name="Peg80" parent="Pegs" unique_id=58659235 instance=ExtResource("2_peptx")]
+position = Vector2(143, 189)
+rotation = 0.039174795
+
+[node name="Peg82" parent="Pegs" unique_id=214209550 instance=ExtResource("2_peptx")]
+position = Vector2(-220, 176)
+rotation = 0.6028415
+
+[node name="Peg83" parent="Pegs" unique_id=1238449755 instance=ExtResource("2_peptx")]
+position = Vector2(184, 176)
+rotation = -0.5235932
 
 [node name="background" type="Node" parent="." unique_id=1976765174]
 
 [node name="PeggleCastle" type="Sprite2D" parent="background" unique_id=1531544276]
+visible = false
 visibility_layer = 4
 z_index = -10
 z_as_relative = false
